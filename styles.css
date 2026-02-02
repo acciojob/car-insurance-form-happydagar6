@@ -1,2 +1,33 @@
+/* Basic font and spacing */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
-/* Your CSS Code here. */
+/* Adds space between each form section */
+div {
+    margin-bottom: 15px;
+}
+
+/* Makes labels sit on their own line above the input */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Sets a fixed width for inputs so they look neat */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 250px;
+    padding: 5px;
+}
+
+/* Simple button styling */
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+}
